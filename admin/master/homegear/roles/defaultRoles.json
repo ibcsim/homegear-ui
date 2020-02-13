@@ -422,15 +422,32 @@
             "de-DE": "Sicherheit - Türzustand"
         },
         "ui": {
+            "simpleCreationInfo": {
+                "element": "Base.doorContact",
+                "roleIdsIn": [
+                    [
+                        301001
+                    ]
+                ],
+                "roleIdsOut": [
+                    [
+                        301001
+                    ]
+                ]
+            },
             "icon": "door_open_2",
+            "label": {
+                "en-US": "Doors",
+                "de-DE": "Türen"
+            },
             "translations": {
                 "de-DE": {
-                    "0": "geschlossen",
-                    "1": "offen"
+                    "0": "geöffnet",
+                    "1": "geschlossen"
                 },
                 "en-US": {
-                    "0": "closed",
-                    "1": "opened"
+                    "0": "opened",
+                    "1": "closed"
                 }
             }
         }
